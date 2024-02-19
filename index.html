@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-book Anita</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/assets/iconanita.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="/assets/iconanita.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <header>
+        <a href="index.html">
+          <h1>e-book Siapkah Anda Untuk Petualangan Laktasi?</h1>
+        </a>
+      </header>
+
+      <div class="content">
+        <div class="button-container">
+          <a href="indexbacapdf.html">
+            <button class="button">Baca e-book ini</button>
+          </a>
+          <a
+            href="./assets/ebook.pdf"
+            download="e-book-siapkah-anda-untuk-petualangan-laktasi.pdf"
+          >
+            <button class="button">Download e-book ini</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy; Website ini dibuat oleh Anita, mahasiswa Poltekkes Kemenkes
+        Tasikmalaya, Prodi D3 Kebidanan.
+      </p>
+
+      <script>
+        // Mendapatkan elemen dengan id "year"
+        const yearElement = document.getElementById("year");
+
+        // Mendapatkan tahun saat ini
+        const currentYear = new Date().getFullYear();
+
+        // Menetapkan tahun saat ini ke dalam elemen
+        yearElement.textContent = currentYear;
+      </script>
+    </footer>
+  </body>
+</html>
